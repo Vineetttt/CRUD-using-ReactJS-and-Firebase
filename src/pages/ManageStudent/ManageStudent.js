@@ -1,13 +1,13 @@
 import React, {useState,useEffect} from 'react'
 import fireDb from "../../firebase"
 import {Link} from "react-router-dom";
-import "./Home.css";
+import "./ManageStudent.css";
 import { toast } from 'react-toastify';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-function Home() {
+function ManageStudent() {
   const [data,setData] = useState({});
 
   useEffect(()=>{
@@ -76,4 +76,4 @@ function Home() {
   )
 }
 
-export default Home
+export default ManageStudent

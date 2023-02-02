@@ -1,24 +1,29 @@
 import React, {useState,useEffect} from 'react'
 import {useNavigate, useParams} from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./AddStudents.css";
 import fireDb from "../../firebase";
 import {toast} from "react-toastify";
 
+// declaring the initial state for the user input variables
 const initialState ={
   Fname: "",Mname:"",Lname:"",rollNo:"",
   addressOne:"",addressTwo:"",
   landmark:"",city:"",pincode:"",
 }
+// option array for class
 const classOptions = [
   {label: "I",value: "I",},{label: "II",value: "II",},{label: "III",value:"III",},
   {label: "IV",value: "IV",},{label: "V",value: "V",},{label: "VI",value: "VI",},
   {label: "VII",value:"VII",},{label: "VIII",value: "VIII",},{label: "IX",value:"IX",},
   {label: "X",value:"X",},{label: "XI",value: "XI",},{label: "XII",value: "XII",},
 ];
+// option array for division
 const divisionOptions =[
   {label:"A",value:"A"},{label:"B",value:"B"},{label:"C",value:"C"},{label:"D",value:"D"},{label:"E",value:"E"},
 ];
-function AddEdit() {
+
+function AddStudents() {
   const [state,setState] = useState(initialState);
   const [data,setData] = useState({});
 
@@ -134,4 +139,4 @@ function AddEdit() {
   )
 }
 
-export default AddEdit
+export default AddStudents
