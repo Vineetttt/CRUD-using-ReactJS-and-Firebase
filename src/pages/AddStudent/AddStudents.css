@@ -1,0 +1,57 @@
+form input{
+    margin-left: 10px;
+    box-sizing: border-box
+}
+.nameInput input[type="text"]{
+    width: 20%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius:5px;
+}
+.detailsInput input,
+.detailsInput select{
+    width: 20%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius:5px;
+}
+.select{
+    margin-left: 10px;
+}
+.addressInput{
+    padding-top: 30px;
+}
+.addressInput input{
+    width: 30%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius:5px;
+}
+.secondaryAddress{
+    margin-left: 160px;
+}
+.secondaryAddress input{
+    width: 20%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius:5px;
+}
+.secondaryAddress #landmark{
+    margin-left: 105px;
+}
+.submit{
+    margin-left: 160px;
+}
+input[type="submit"]{
+    background-color: #F33823;
+    width: 20%;
+    color: white;
+    margin-left: 105px;
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.logo{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: #584a4a;
+    padding-left: 67px;
+}
+.sidebar{
+    float: left;
+    clear: left;
+    margin-top: 100px;
+}
+p{
+    margin-left: 15px;
+    text-align: center;
+    width: 240px;
+    height: 48px;
+    background-color: #FFFCFB;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+p.active{
+    background-color: #f33823;
+    color: white;
+}
+.icon{
+    padding-right: 10px;
+}

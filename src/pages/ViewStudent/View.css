@@ -1,0 +1,37 @@
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.card-header{
+    background-color: #f33823;
+}
+.card-header p{
+    font-size: 20px;
+    margin: auto;
+    background-color: #f33823;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.container{
+    padding: 4px 16px;
+}
+.classDiv{
+    display: flex;
+}
+.classDiv .roll{
+    padding-left: 15px;
+}
+.goBack{
+    background-color: #f33823;
+    padding: 15px;
+    color: white;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
